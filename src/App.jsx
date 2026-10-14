@@ -23,7 +23,7 @@ const App = () => {
     setUserData([]);
     setDataAvail(false);
     const res = await axios.get(
-      `https://picsum.photos/v2/list?page=${index}&limit=10`,
+      `https://picsum.photos/v2/list?page=${index}&limit=20`,
     );
     setUserData(res.data);
     setDataAvail(true);

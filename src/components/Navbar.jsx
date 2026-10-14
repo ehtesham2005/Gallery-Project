@@ -16,7 +16,7 @@ const Navbar = ({ theme, onToggleTheme }) => {
       <div className="flex gap-5 items-center">
         <Image
           size={28}
-          className="text-[#fffa61] light:text-amber-400 w-5 h-5 sm:w-7 sm:h-7 lg:w-8 lg:h-8 transition-colors duration-300 ease-in-out"
+          className="text-amber-400 w-5 h-5 sm:w-7 sm:h-7 lg:w-8 lg:h-8 transition-colors duration-300 ease-in-out"
           absoluteStrokeWidth
         />
         <h3 className="text-white light:text-black text-lg sm:text-xl lg:text-2xl font-bold transition-colors duration-300 ease-in-out">
@@ -35,9 +35,9 @@ const Navbar = ({ theme, onToggleTheme }) => {
           ) : (
             <Moon
               size={28}
-              className="text-[#f5d63d] w-5 h-5 sm:w-7 sm:h-7 lg:w-8 lg:h-8 transition-colors duration-300 ease-in-out"
-              fill="#f5d63d"
-              stroke="#f5d63d"
+              className="text-[#FFD700] w-5 h-5 sm:w-7 sm:h-7 lg:w-8 lg:h-8 transition-colors duration-300 ease-in-out"
+              fill="#FFD700"
+              stroke="#FFD700"
               strokeWidth={2.25}
               absoluteStrokeWidth
             />
